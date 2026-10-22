@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+  <com.google.android.material.appbar.MaterialToolbar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/toolBarMenu"
+      app:menu="@menu/menu_principal"
+      app:title="MCR APP"
+      app:navigationIcon="@drawable/baseline_menu"
+      />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:id="@+id/btnEnviar"
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="50dp"
+    android:text="Enviar" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavView"
+        app:menu="@menu/menu_nav_bar"
+        app:labelVisibilityMode="labeled"
+        android:layout_gravity="bottom"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

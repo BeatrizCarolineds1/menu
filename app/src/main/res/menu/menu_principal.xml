@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mArquivo"
+        android:icon="@drawable/baseline_archive"
+        android:title="Arquivo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mSave"
+        android:icon="@drawable/baseline_save"
+        android:title="Save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mUpdate"
+        android:icon="@drawable/baseline_system_security_update_good"
+        android:title="Update"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mDelete"
+        android:icon="@drawable/baseline_delete"
+        android:title="Delete"
+        app:showAsAction="always" />
+
+
+
+</menu>

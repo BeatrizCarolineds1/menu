@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mNews"
+        android:icon="@drawable/baseline_open_in_new"
+        android:title="New"
+       app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mGlobal"
+        android:icon="@drawable/baseline_circle"
+        android:title="Global"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mForYou"
+        android:icon="@drawable/baseline_star"
+        android:title="For You"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mTrend"
+        android:icon="@drawable/baseline_trending_flat"
+        android:title="Trend"
+        app:showAsAction="always" />
+
+</menu>
